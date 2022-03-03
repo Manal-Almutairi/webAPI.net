@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\Bookstore\\Bookstore.csproj": {}
+    "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\webAPI.net\\Bookstore\\Bookstore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\Bookstore\\Bookstore.csproj": {
+    "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\webAPI.net\\Bookstore\\Bookstore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\Bookstore\\Bookstore.csproj",
+        "projectUniqueName": "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\webAPI.net\\Bookstore\\Bookstore.csproj",
         "projectName": "Bookstore",
-        "projectPath": "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\Bookstore\\Bookstore.csproj",
+        "projectPath": "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\webAPI.net\\Bookstore\\Bookstore.csproj",
         "packagesPath": "C:\\Users\\manal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\Bookstore\\obj\\",
+        "outputPath": "C:\\Users\\manal\\Documents\\self-learn\\asp-dot-net\\webAPI\\webAPI.net\\Bookstore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manal\\AppData\\Roaming\\NuGet\\NuGet.Config",
