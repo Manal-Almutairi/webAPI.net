@@ -1,13 +1,19 @@
-using System;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
-namespace Bookstore.Entities
+namespace Bookstore.Entities;
+
+public class Book
 {
-    public record Book
-    {
-        public Guid Id { get; init;}
-        public string Name { get; init;}
-        public string Author { get; init;}
-        public double Price { get; init;}
-        
-    }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string? Id { get; set; }
+
+    public string Name { get; set; } = null!;
+
+    public decimal Price { get; set; }
+
+    public string Category { get; set; } = null!;
+
+    public string Author { get; set; } = null!;
 }

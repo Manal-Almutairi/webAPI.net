@@ -1,10 +1,13 @@
-
-using Bookstore.Repositories;
+using Bookstore.Settings;
+using Bookstore.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<IBooksRepository , BooksRepository>();
+builder.Services.Configure<BookstoreDbSettings>(
+    builder.Configuration.GetSection("BookstoreDatabase"));
+
+builder.Services.AddSingleton<BooksService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
